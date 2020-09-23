@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+
+/* body {
+  min-height: 100vh;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #222;
+  background-image: url("../img/smile.png"),
+    url("../img/sign.png"),
+    url("../img/sardoba.jpg");
+  background-repeat: no-repeat;
+  background-size: 200px, 50px, cover;
+  background-position: right center,
+    left bottom,
+    center center;
+} */
+
+.container {
+  max-width: 1240px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .demo-box {
+  min-height: 100vh;
+  background-image: url("../img/smile.png");
+}
+
+.boshqa-box {
+  min-height: 100vh;
+  background-color: gold;
+} */
+
+.nemo-idish {
+  min-height: 100vh;
+  background-image: url("../img/background.jpg");
+  background-repeat: no-repeat; /* repeat, repeat-x, repeat-y, no-repeat, round, space */
+  /* background-position: 0% 0%; */
+  /* left, center, right */
+  /* background-position-x: right; */
+  /* top, center, bottom */
+  /* background-position-y: bottom; */
+
+  /* avval x, keyin y */
+  /* background-position: right 100px bottom 100px; */
+  /* background-position: center bottom; */
+
+  /* background-size: auto 50%; */
+  /* background-size: contain; */
+
+  background-size: cover;
+  /* background-position: right 100px center; */
+  background-position: center center;
+
+  background-attachment: fixed;
+}
+
+/* .dori-idish {
+  min-height: 100vh;
+  background-color: gold;
+} */
+
+/* MASHQ */
+
+body {
+  /* min-height: 100vh;
+  background-image:
+    linear-gradient(to right top, red, gold),
+    url("../img/plane.png"),
+    url("../img/explosion.png"),
+    url("../img/road.jpg");
+  background-repeat: no-repeat;
+  background-size: cover, 200px, 100px, cover;
+  background-position: left top,
+    right calc(50% - 200px) top 235px,
+    right 250px top 200px,
+    center bottom;
+  background-attachment: fixed; */
+}
+
+/* .the-idish {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 900px;
+  min-height: 200px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 0 0 2px black;
+}
+
+.la-mini-idish {
+  width: calc((100% - 75px) / 4);
+  height: 400px;
+  background-color: gold;
+} */
+/*
+.bulim {
+  min-height: 600px;
+  border: 2px solid #000;
+  background-image: url("../img/karantin.jpg");
+  background-repeat: no-repeat;
+  background-position: left calc(50% + 200px) bottom 100px;
+  background-size: 400px;
+} */
+
+.uz-flag {
+  min-height: 100vh;
+  border: 1px solid #000;
+  background-image: linear-gradient(
+    to bottom,
+    skyblue 30%,
+    red 30%,
+    red 35%,
+    white 35%,
+    white 65%,
+    red 65%,
+    red 70%,
+    green 70%
+  );
+}
